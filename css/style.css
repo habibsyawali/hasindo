@@ -64,7 +64,7 @@ body {
   height: 98vh;
   position: relative;
   /* background-image: url(../images/hero-bg.png); */
-  background-color: #2484C6;
+  background-color: #21409A;
   background-size: cover;
   background-position: bottom;
 }
@@ -73,13 +73,13 @@ body {
   height: auto;
   background: none;
   /* background-color: #041858; */
-  background-color: #2484C6;
+  background-color: #21409A;
 }
 
 .sub_page .footer_bg {
   background: none;
   /* background-color: #041858; */
-  background-color: #2484C6;
+  background-color: #21409A;
   padding-top: 45px;
 }
 
@@ -375,7 +375,7 @@ a:focus {
 }
 
 .service_section {
-  background-color: #2484C6;
+  background-color: #21409A;
   color: #ffffff;
   text-align: center;
 }
@@ -684,7 +684,7 @@ a:focus {
 
 .footer_bg {
   /* background-image: url(../images/footer-bg.png); */
-  background-color: #2484C6;
+  background-color: #21409A;
   background-size: cover;
   background-position: right top;
   padding-top: 250px;
