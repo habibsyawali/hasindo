@@ -333,7 +333,7 @@ a:focus {
 
 .slider_section .carousel_btn-container .carousel-control-prev:hover,
 .slider_section .carousel_btn-container .carousel-control-next:hover {
-  background-color: #041858;
+  background-color: #21409A;
 }
 /* background-color: #2484C6; */
 
@@ -576,7 +576,7 @@ a:focus {
   border-radius: 25px;
   -webkit-transform: translateX(-52.5%) rotate(-15deg);
           transform: translateX(-52.5%) rotate(-15deg);
-  background-color: #041858;
+  background-color: #21409A;
 }
 
 .team_section .team_container .box .detail-box {
