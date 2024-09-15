@@ -31,90 +31,57 @@
 <body>
 
   <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="s-1"> </span>
-            <span class="s-2"> </span>
-            <span class="s-3"> </span>
-          </button>
 
-          <div class="collapse navbar-collapse fixed-top" id="navbarSupportedContent" style="background-color: #041858;">
-  <div class="d-flex justify-content-between align-items-center w-100">
-    <!-- Brand berada di kiri -->
-    <a class="navbar-brand" href="index.html" style="margin-left: 20px;">
-      <span>
-        Hasindo
-      </span>
-    </a>
+        <!-- header section strats -->
+        <header class="header_section fixed-top" style="background-color: #2484C6;">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+              <a class="navbar-brand" href="index.html">
+                <span>
+                  Hasindo
+                </span>
+              </a>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+                  <ul class="navbar-nav d-flex flex-lg-row">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html"> About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html"> Services </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Team</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <!-- end header section -->
 
-    <!-- Menu navigasi di kanan -->
-    <ul class="navbar-nav d-flex flex-lg-row ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about"> About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#service"> Services </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#team">Team</a>
-      </li>
-    </ul>
-  </div>
-</div>
-<div class="collapse navbar-collapse fixed-top" id="navbarSupportedContent" style="background-color: #041858;">
-  <div class="d-flex justify-content-start align-items-center">
-    <!-- Brand berada di kiri -->
-    <a class="navbar-brand" href="index.html" style="margin-left: 20px;"> <!-- Menambahkan margin kiri -->
-      <span>
-        Hasindo
-      </span>
-    </a>
-
-    <!-- Menu navigasi di tengah -->
-    <div class="mx-auto"> <!-- Menambahkan div khusus untuk menu dan menerapkan mx-auto -->
-      <ul class="navbar-nav d-flex flex-lg-row">
-        <li class="nav-item active">
-          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about"> About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#service"> Services </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#team">Team</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-        </nav>
-      </div>
-    </header>
-    <!-- end header section -->
     <!-- slider section -->
     <section class="slider_section" id="#home">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container">
-              <div class="row justify-content-center"> <!-- Menambahkan justify-content-center untuk mendekatkan ke tengah -->
+              <div class="row"> <!-- Menambahkan justify-content-center untuk mendekatkan ke tengah -->
                 <div class="col-md-6 offset-md-1"> <!-- Menggunakan offset untuk menggeser ke kanan -->
-                  <div class="detail_box text-center"> <!-- Mengatur teks ke tengah -->
-                    <h1>Hasana Mandiri Indonesia</h1>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi delectus officiis impedit ipsam mollitia quis eaque amet soluta sunt earum molestias, suscipit cupiditate adipisci natus explicabo modi ea omnis aperiam.
-                    </p>
+                  <div class="detail_box"> <!-- Mengatur teks ke tengah -->
+                    <h1 class="mt-4">Hasana Mandiri Indonesia</h1>
+                    <h5>Profesional, Ikhlas, dan Bermanfaat</h5>
                     <div class="btn-box">
                       <a href="#about" class="btn-1">Get Started</a>
                     </div>
@@ -153,12 +120,12 @@
                 About Us
               </h2>
             </div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque assumenda atque non repellat voluptatum modi porro. Corporis ad quisquam consequuntur fugit delectus ab, tempore nostrum, inventore minima aspernatur recusandae!
+            <p style="text-align: left;">
+              Yayasan Hasana Mandiri Indonesia adalah Yayasan non profit yang bergerak dibidang Pendidikan, dan Sosial Kemanusiaan. Yayasan ini didirikan atas inisiatif  Bapak Dr. Hasman Budiadi, S.E., M.M., Ibu Setiyowati, S.Kom., M.Kom., dan Ibu Sri Siswanti, S.Kom., M.Kom. Yayasan Hasana Mandiri Indonesia mendapatkan ijin pada tanggal 18 Juli 2024, dengan Akta Notaris No. 14, ijin Kemenkumham: AHU-0011480.AH.01.04.Tahun 2024.
             </p>
-            <!-- <a href="">
+            <a href="about.html">
               Read More
-            </a> -->
+            </a>
           </div>
         </div>
       </div>
@@ -176,7 +143,7 @@
           Services
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          
         </p>
       </div>
 
@@ -187,7 +154,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Video Promotion
+              Sosial
             </h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -200,7 +167,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Video Marketing
+              Publikasi
             </h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -213,45 +180,13 @@
           </div>
           <div class="detail-box">
             <h5>
-              Webinar
+              Kemanusiaan
             </h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             </p>
           </div>
         </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/s-4.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Training
-            </h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/s-5.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Kepenulisan
-            </h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="btn-box">
-        <a href="">
-          Read More
-        </a>
-      </div> -->
     </div>
   </section>
   <!-- end service section -->
@@ -262,14 +197,11 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          LOREM
+          Visi, Misi, dan Tujuan
         </h2>
-        <p>
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="detail_container">
             <div class="box b-1">
               <div class="top-box">
@@ -277,13 +209,12 @@
                   <img src="images/work-i1.png" alt="" >
                 </div>
                 <h5>
-                  Lorem
+                  Visi
                 </h5>
               </div>
               <div class="bottom-box">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam
+                  Menciptakan Kemandirian dan Kebaikan Dalam Masyarakat Khususnya Perempuan dan Pemuda serta Membangun Insan yang Berakhlak dan Berkarakter.
                 </p>
               </div>
             </div>
@@ -293,23 +224,64 @@
                   <img src="images/work-i2.png" alt="">
                 </div>
                 <h5>
-                  Lorem 2
+                  Misi
                 </h5>
               </div>
               <div class="bottom-box">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam
+                  <ul>
+                    <li>Mendorong perempuan dan pemuda untuk melakukan wirausaha.</li>
+                    <li>Mendorong perempuan dan pemuda untuk melakukan kegiatan yang bermanfaat untuk orang lain.</li>
+                    <li>Mempersiapkan Perempuan dan Pemuda yang Berkarakter dan Berakhlak serta memiliki daya saing.</li>
+                    <li>Mempersiapkan Perempuan dan Pemuda yang professional di era digital.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div class="box b-1">
+              <div class="top-box">
+                <div class="icon-box">
+                  <img src="images/work-i2.png" alt="">
+                </div>
+                <h5>
+                  Tujuan
+                </h5>
+              </div>
+              <div class="bottom-box">
+                <p>
+                  Mewujudkan perempuan dan pemuda yang professional dan memiliki daya saing di era digital
+                </p>
+              </div>
+            </div>
+            <div class="box b-1">
+              <div class="top-box">
+                <div class="icon-box">
+                  <img src="images/work-i2.png" alt="">
+                </div>
+                <h5>
+                  Value Yayasan Hasana Mandiri Indonesia adalah
+                </h5>
+              </div>
+              <div class="bottom-box">
+                <p>
+                  <ul>
+                      <li>Ikhlas,</li>
+                      <li>Bermanfaat,</li>
+                      <li>Mencerdaskan Kehidupan Bangsa,</li>
+                      <li>Tangan diatas lebih baik dari pada tangan di bawah</li>
+                      <li>Kreatif dan Inovatif, </li>
+                      <li>Pemberdayaan dan Kemandirian.</li>
+                  </ul>
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <div class="img-box">
             <img src="images/work-img.png" alt="">
           </div>
-        </div>
+        </div> -->
       </div>
 
       <!-- <div class="btn-box">
@@ -403,93 +375,43 @@
       </div>
     </div>
   </section>
-
   <!-- end team section -->
 
-
   <div class="footer_bg">
-
-    <!-- contact section -->
-    <section class="contact_section layout_padding" id="contactLink">
-      <div class="container">
-        <!-- <div class="heading_container">
-          <h2>
-            Get In touch
-          </h2>
-        </div> -->
-      </div>
-      <div class="container">
-        <!-- <div class="row">
-          <div class="col-lg-6 col-md-8 mx-auto">
-            <form>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <input type="text" class="form-control" id="inputName4" placeholder="Name ">
-                </div>
-                <div class="form-group col-md-6">
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email id">
-                </div>
-
-              </div>
-              <div class="form-row">
-                <div class="form-group col">
-                  <input type="text" class="form-control" id="inputSubject4" placeholder="Subject">
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="inputMessage" placeholder="Message">
-              </div>
-              <div class="d-flex justify-content-center">
-                <button type="submit" class="">Send</button>
-              </div>
-            </form>
-          </div>
-        </div> -->
-      </div>
-    </section>
-
-
-    <!-- end contact section -->
-
-
-
     <!-- info section -->
-    <section class="info_section layout_padding2">
+    <section class="info_section">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="info_logo">
               <h3>
-                HASINDO
+                Hasindo
               </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor indidunt ut labore et
-                dolore magna
-              </p>
+              <h6> Profesional, Ikhlas, dan Bermanfaat</h6>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="info_links">
               <h4>
                 BASIC LINKS
               </h4>
               <ul class="  ">
-                <li class=" active">
+                <li class=" ">
                   <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="">
-                  <a class="" href="about.html"> About</a>
+                  <a class="" href="#about"> About</a>
                 </li>
                 <li class="">
-                  <a class="" href="service.html"> Services </a>
+                  <a class="" href="#service"> Services </a>
                 </li>
                 <li class="">
-                  <a class="" href="#contactLink">Contact Us</a>
+                  <a class="" href="#team"> Team </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="info_contact">
               <h4>
                 CONTACT DETAILS
@@ -499,7 +421,7 @@
                   <img src="images/telephone-white.png" width="12px" alt="">
                 </div>
                 <p>
-                  +6285876345001
+                  +01 1234567890
                 </p>
               </a>
               <a href="">
@@ -512,24 +434,6 @@
               </a>
             </div>
           </div>
-          <!-- <div class="col-md-3">
-            <div class="info_form ">
-              <div class="social_box">
-                <a href="">
-                  <img src="images/info-fb.png" alt="">
-                </a>
-                <a href="">
-                  <img src="images/info-twitter.png" alt="">
-                </a>
-                <a href="">
-                  <img src="images/info-linkedin.png" alt="">
-                </a>
-                <a href="">
-                  <img src="images/info-youtube.png" alt="">
-                </a>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
@@ -541,13 +445,10 @@
     <section class="container-fluid footer_section">
       <div class="container">
         <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/"><b>Hasana Mandiri Indonesia</b></a>
-        </p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By <b>Hasana Mandiri Indonesia</b></p>
       </div>
     </section>
     <!-- footer section -->
-
   </div>
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>

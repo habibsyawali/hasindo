@@ -63,7 +63,8 @@ body {
 .hero_area {
   height: 98vh;
   position: relative;
-  background-image: url(../images/hero-bg.png);
+  /* background-image: url(../images/hero-bg.png); */
+  background-color: #2484C6;
   background-size: cover;
   background-position: bottom;
 }
@@ -334,6 +335,7 @@ a:focus {
 .slider_section .carousel_btn-container .carousel-control-next:hover {
   background-color: #041858;
 }
+/* background-color: #2484C6; */
 
 .slider_section .carousel_btn-container .carousel-control-prev {
   background-image: url(../images/left-angle.png);
@@ -373,7 +375,7 @@ a:focus {
 }
 
 .service_section {
-  background-color: #041858;
+  background-color: #2484C6;
   color: #ffffff;
   text-align: center;
 }
@@ -681,7 +683,8 @@ a:focus {
 }
 
 .footer_bg {
-  background-image: url(../images/footer-bg.png);
+  /* background-image: url(../images/footer-bg.png); */
+  background-color: #2484C6;
   background-size: cover;
   background-position: right top;
   padding-top: 250px;
