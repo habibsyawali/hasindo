@@ -63,8 +63,8 @@ body {
 .hero_area {
   height: 98vh;
   position: relative;
-  /* background-image: url(../images/hero-bg.png); */
-  background-color: #21409A;
+  background-image: url(../images/BG-WEB-01.png);
+  /* background-color: #21409A; */
   background-size: cover;
   background-position: bottom;
 }
